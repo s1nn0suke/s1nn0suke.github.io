@@ -1,0 +1,94 @@
+.container-fluid contents{
+  background-color: #000000;
+}
+
+.jumbotron-extend {
+    height: 100vh;
+    min-height: 350px;
+    margin-bottom: 60px;
+    background: url(../img/bluewater.jpeg) no-repeat center center;
+    background-size: cover;
+}
+
+.jumbotron-container {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.site-name {
+    margin-bottom: -30px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+
+.site-name p {
+    margin-bottom: -10px;
+    font-size: 80px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+.navbar-header {
+
+}
+
+.contents {
+    max-width: 990px;
+    margin: 0 auto;
+}
+.content-primary,
+.content-secondary {
+    padding-left: 0;
+    padding-right: 0;
+}
+.content-primary {
+    float: left;
+    width: 52.08%;
+}
+.content-secondary {
+    float: right;
+    width: 37.92%;
+}
+.navbar-brand {
+  background: url("../img/infinity.jpeg") no-repeat left center;
+  background-size: contain;
+  height: 40px;
+  width: 200px;
+}
+
+.contens{
+  font-size: 10px ;
+  text-align: center ;
+}
+
+.sns-button{
+  text-align: right;
+}
+
+
+
+.massage{
+  font-weight:bold;
+}
+
+@media (min-width: 320px) {
+  .carousel,
+  .carousel .item,
+  .carousel .item-mask,
+  .carousel-inner .item .item-mask img {
+    height:200px;
+  }
+}
+
+@media (min-width: 768px) {
+  .carousel,
+  .carousel .item,
+  .carousel .item-mask,
+  .carousel-inner .item .item-mask img {
+    height:400px;
+  }
+}

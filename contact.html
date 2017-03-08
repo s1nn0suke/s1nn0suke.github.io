@@ -1,0 +1,60 @@
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/normalize.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+</head>
+
+<body>
+    <nav class="navbar-inverse">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#gnavi">
+    <span class="sr-only">メニュー</span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+  </button>
+            <a class="navbar-brand" href="#">
+            </a>
+        </div>
+
+        <div id="gnavi" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav ">
+                <li>
+                    <a href="index.html">HOME</a>
+                </li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="epic/gallery.html">GALLERY</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+
+        </div>
+    </nav>
+    <div class="container">
+
+        <h3>ご連絡はこちらからどうぞ。</h3>
+        <br>
+        <form>
+
+            <div class="form-group">
+                <label>Name</label>
+                <input type="text" class="form-control" placeholder="名前を入力してください。">
+                <br>
+                <label>Mail adress</label>
+                <input type="text" class="form-control" placeholder="メールアドレスを入力してください。">
+            </div>
+
+            <div class="massage">
+                <p>Massage</p>
+                <textarea name="opinion" cols="40" rows="10" maxlength="400" placeholder="お問い合わせ内容を400字以内で入力してください。"></textarea>
+            </div>
+            <br>
+            <button type="submit" class="btn btn-default">送信</button>
+
+        </form>
